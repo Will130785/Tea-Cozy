@@ -18,6 +18,7 @@ header {
     position: fixed;
     z-index: 1;
     border-bottom: 1px solid seashell;
+    background-color: black;
 }
 
 .logo {
@@ -34,6 +35,14 @@ nav span a {
     padding: 10px;
 }
 
+/* Main Content */
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* Main Title */
 
 .main-title {
@@ -47,7 +56,71 @@ nav span a {
 }
 
 .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: black;
-    height: 150px;
-    width: 100%
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Center Section */
+
+.center-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    top: 200px;
+}
+
+.banner-two {
+    text-align: center;
+}
+
+.items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+
+.items-two {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 1000px;
+    padding-left: 175px;
+    padding-right: 175px;
+}
+
+.image {
+    height: 200px;
+    width: 300px;
+}
+
+.items h4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.myrtle {
+    margin-right: 20px;
+}
+
+.bedford {
+    margin-left: 20px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
 }
