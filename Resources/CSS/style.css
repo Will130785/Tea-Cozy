@@ -124,3 +124,34 @@ h2 {
     display: flex;
     justify-content: center;
 }
+
+/* Bottom Section */
+
+.bottom-section {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    width: 1200px;
+    position: relative;
+    top: 269px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+    text-align: center;
+}
+
+
+.center-box {
+    margin-right: 40px;
+    margin-left: 40px;
+}
